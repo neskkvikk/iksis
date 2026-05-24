@@ -59,10 +59,13 @@ body {
     text-align: left;
     margin-bottom: @rems_10px * 2;
     @media screen and (@res1) {
-        left: @rems_10px;
+        width: 100%;
+        max-width: @rems_10px * 62;
     }
     @media screen and (@res2) {
         font-size: @rems_10px * 3;
+        width: 100%;
+        max-width: @rems_10px * 30;
     }
 }
 
@@ -119,7 +122,8 @@ body {
             font-size: @rems_10px * 5;
         }
         @media screen and (@res2) {
-            width: @rems_10px * 26;
+            max-width: @rems_10px * 26;
+            width: auto;
             font-size: @rems_10px * 3;
             top: @rems_10px * 2;
             left: @rems_10px * 2;
@@ -139,13 +143,15 @@ body {
         margin: 0 auto;
         font-family: 'Onest', sans-serif;
         @media screen and (@res1){
-            width: @rems_10px * 35.3;
+            max-width: @rems_10px * 35.3;
+            width: auto;
         }
         @media screen and (@res2) {
-            width: @rems_10px * 26;
+            max-width: @rems_10px * 26;
+            width: auto;
             font-size: @rems_10px * 1.8;
             top: @rems_10px * 32;
-            left: @rems_10px * 4;
+            left: @rems_10px * 2;
         }
     }
 }

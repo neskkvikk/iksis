@@ -52,12 +52,15 @@ body {
 }
 @media screen and ((max-width: 56.25rem)) {
   .text-h2 {
-    left: 0.625rem;
+    width: 100%;
+    max-width: 38.75rem;
   }
 }
 @media screen and ((max-width: 30rem)) {
   .text-h2 {
     font-size: 1.875rem;
+    width: 100%;
+    max-width: 18.75rem;
   }
 }
 .slider {
@@ -122,7 +125,8 @@ body {
 }
 @media screen and ((max-width: 30rem)) {
   .slider h1 {
-    width: 16.25rem;
+    max-width: 16.25rem;
+    width: auto;
     font-size: 1.875rem;
     top: 1.25rem;
     left: 1.25rem;
@@ -144,15 +148,17 @@ body {
 }
 @media screen and ((max-width: 56.25rem)) {
   .slider p {
-    width: 22.0625rem;
+    max-width: 22.0625rem;
+    width: auto;
   }
 }
 @media screen and ((max-width: 30rem)) {
   .slider p {
-    width: 16.25rem;
+    max-width: 16.25rem;
+    width: auto;
     font-size: 1.125rem;
     top: 20rem;
-    left: 2.5rem;
+    left: 1.25rem;
   }
 }
 .cards {
